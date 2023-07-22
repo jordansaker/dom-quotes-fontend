@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+blockquote {
+    font-style: italic;
+    font-size: 1.4rem;
+    width: 90%;
+}
+
+section div div {
+    width: 30%;
+}
+
+button {
+    padding: 0.5rem;
+}
+.show {
+    display: none;
+}
+
+section div, section form {
+    display: flex;
+}
+
+section div, section form {
+    flex-direction: column;
+}
+section {
+    padding: 1.5rem;
+}
+textarea {
+    height: 5rem;
+    resize: none;
+    font-family: 'DM Sans', sans-serif;
+}
+input, textarea {
+    width: 25%;
+}
+
+label, input, textarea {
+    padding: 1rem;
+}
+
+section form input:last-of-type {
+    width: 15%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    border-radius: 5px;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-image: url('https://fandomwire.com/wp-content/uploads/2022/07/dom.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 250%;
+    background-position-y: 30%;
+    height: 100vh;
+}
+
+body > button:last-of-type {
+    margin-left: 18rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.loading{
+    width: 4%;
+    position: relative;
+    top: -9vw;
+    left: 17vw;
+}
+
+body section:nth-of-type(2) p {
+    margin-top: 1.5rem;
+    background-color: #2dd23c90;
+    width: 21%;
+    padding: 1rem;
+    border: 1px solid #2dd23c;
+    border-radius: 1%;
+}
